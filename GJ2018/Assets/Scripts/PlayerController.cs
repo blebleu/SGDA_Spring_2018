@@ -41,4 +41,12 @@ public class PlayerController : MonoBehaviour {
 		//Button B
 		return Input.GetButtonDown ("Joy" + controller + "B");
 	}
+	public bool InputButtonX(){
+		//Button X
+		return Input.GetButtonDown ("Joy" + controller + "S");
+	}
+	public bool InputButtonY(){
+		//Button Y
+		return Input.GetButtonDown ("Joy" + controller + "T");
+	}
 }
